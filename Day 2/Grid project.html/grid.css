@@ -1,0 +1,16 @@
+body{
+    margin:20px;
+    padding: 20px;
+    background-color:white;
+    display:grid;
+    grid-area: body;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "body body"
+    "body body"
+}
+img{
+    width: 50%;
+    height:50%;
+}
